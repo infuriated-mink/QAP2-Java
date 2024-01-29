@@ -1,5 +1,4 @@
-package Task1;
-
+package Problems;
 public class CreditCardDemo {
     public static void main(String[] args) {
         Money limit = new Money(1000);

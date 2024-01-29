@@ -1,4 +1,4 @@
-package Task1;
+package Problems;
 
 public class TestMyRectangle {
     public static void main(String[] args) {
