@@ -1,4 +1,5 @@
-package Problems;
+package Task3;
+
 public class CreditCardDemo {
     public static void main(String[] args) {
         Money limit = new Money(1000);
@@ -6,7 +7,7 @@ public class CreditCardDemo {
         Money secondAmount = new Money(10.02);
         Money thirdAmount = new Money(25);
         Money fourthAmount = new Money(990);
-        Person owner = new Person("Christie", "Diane", new Address("237J Harvey Hall", "Menomonie", "WI", "54751"));
+        Person owner = new Person("Bob", "Billy", new Address("123 Sesame St.", "St. John's", "NL", "A1B4P8"));
         CreditCard visa = new CreditCard(owner, limit);
 
         System.out.println(visa.getPersonals());

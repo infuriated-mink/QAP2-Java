@@ -1,5 +1,4 @@
-package Problems;
-
+package Task3;
 
 public class Money {
     private long dollars;

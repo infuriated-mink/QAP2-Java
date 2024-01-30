@@ -1,4 +1,4 @@
-package Problems;
+package Task3;
 
 public class Address {
     private String street;

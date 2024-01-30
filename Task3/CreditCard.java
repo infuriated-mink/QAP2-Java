@@ -1,4 +1,5 @@
-package Problems;
+package Task3;
+
 public class CreditCard {
     private Money balance;
     private Money creditLimit;

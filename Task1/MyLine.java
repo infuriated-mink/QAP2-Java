@@ -1,9 +1,10 @@
-package Problems;
+package Task1;
+
 class MyLine {
     private MyPoint begin;
     private MyPoint end;
 
-// constructors
+    // constructors
     public MyLine(int x1, int y1, int x2, int y2) {
         begin = new MyPoint(x1, y1);
         end = new MyPoint(x2, y2);
@@ -25,7 +26,8 @@ class MyLine {
     public MyPoint getEnd() {
         return end;
     }
-// getters and setters
+
+    // getters and setters
     public void setEnd(MyPoint end) {
         this.end = end;
     }
@@ -65,7 +67,8 @@ class MyLine {
     public int[] getBeginXY() {
         return begin.getXY();
     }
-// methods
+
+    // methods
     public void setBeginXY(int x, int y) {
         begin.setXY(x, y);
     }
@@ -77,7 +80,8 @@ class MyLine {
     public void setEndXY(int x, int y) {
         end.setXY(x, y);
     }
-// toString
+
+    // toString
     public double getLength() {
         return begin.distance(end);
     }
