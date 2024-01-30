@@ -1,6 +1,6 @@
 package Task1;
 
-class MyPoint {
+public class MyPoint {
     private int x;
     private int y;
 

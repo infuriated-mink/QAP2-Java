@@ -1,5 +1,7 @@
 package Task2;
 
+import Task1.MyPoint;
+
 public class TestMyRectangle {
     public static void main(String[] args) {
         MyRectangle rectangle = new MyRectangle(new MyPoint(1, 4), new MyPoint(5, 1));
